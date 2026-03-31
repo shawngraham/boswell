@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F9F9F8] text-zinc-900 antialiased;
+  }
+}
+
+.prose {
+  @apply text-zinc-800 leading-relaxed;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply font-serif italic text-zinc-900;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose a {
+  @apply text-zinc-900 underline underline-offset-4 decoration-zinc-300 hover:decoration-zinc-900 transition-all;
+}

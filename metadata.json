@@ -1,0 +1,5 @@
+{
+  "name": "Boswell",
+  "description": "Your research companion. A minimalist, local-first academic project management tool for humanities researchers. Tracks students, tasks, funding, bibliography, and research notes using local Markdown and BibTeX files.",
+  "requestFramePermissions": []
+}
