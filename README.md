@@ -47,7 +47,7 @@ This is the lightest layer of metadata — the information that tells someone pi
  
 ---
  
-## Researchers: Tracking People and Accountability
+## Researchers
  
 The **Researchers** section is for anyone doing substantive work on the project: graduate research assistants, undergraduate coders, postdoctoral collaborators, project managers. For each person, record their name, role, institutional email, and student ID if applicable.
  
@@ -59,7 +59,7 @@ Each researcher can be assigned tasks. When you assign a task to someone, their 
  
 ---
  
-## Tasks: The Kanban as a Decision Record
+## Tasks
  
 The **Tasks** view is a four-column Kanban board: To Do, In Progress, Blocked, and Done. Tasks can be dragged between columns, assigned to team members, given due dates, and linked to files.
  
@@ -78,7 +78,7 @@ The **Blocked** column deserves particular attention. In standard project manage
  
 ---
  
-## Funding: Not Just Bookkeeping
+## Funding
  
 The **Funding** section tracks grant sources, allocations, expenses, and report filing. Each funding source can have a deadline, which appears on the Dashboard as an upcoming event and in the Timeline view.
  
@@ -88,7 +88,7 @@ The **Notes** field on each funding source is where you can record the grant's s
  
 ---
  
-## Bibliography: The `.bib` File as Connective Tissue
+## Bibliography
  
 The **Bibliography** view reads from a `bibliography.bib` file in your project folder. If you use Zotero with the Better BibTeX plugin, you can configure it to auto-export your project library to this location, and Boswell will reflect changes when you reload.
  
@@ -110,7 +110,7 @@ One suggested practice: keep a folder called `decisions/` in your notes director
  
 ---
  
-## Writing: Progress Without Pressure
+## Writing
  
 The **Writing** section tracks writing projects by word count and status. Each project has a current word count (entered manually), a target, and a status — Drafting, Review, or Final. The progress bar on the Dashboard and within the Writing view gives a visual sense of where things stand across all projects.
  
@@ -122,7 +122,7 @@ The word count is intentionally manual. Automatically counting words from files 
  
 ---
  
-## Experiments: The Core of DH Paradata
+## Experiments
  
 This section is for computational or methodological experiments: topic modeling runs, network analysis iterations, OCR preprocessing pipelines, entity recognition tests, database schema decisions. That is, any act of doing something to data in order to find out something about it.
  
@@ -157,7 +157,7 @@ The code repository link is important. A written description of a computational 
  
 ---
  
-## The Research Log: Daily Paradata
+## The Research Log
  
 The **Research Log** is the newest and in some ways most important section. It is a date-keyed journal: one entry per day, each saved as a separate Markdown file in a `log/` subfolder of your project directory.
  
@@ -177,7 +177,7 @@ The log integrates with the Dashboard (recent entries are shown as cards) and th
  
 ---
  
-## Timeline: Seeing the Shape of the Project
+## Timeline
  
 The **Timeline** view assembles all dated events from across the project: task due dates, experiment dates, funding deadlines, into a single chronological view grouped by month. Completed events are greyed out; overdue items are flagged in red; events today are highlighted.
  
@@ -187,7 +187,7 @@ The Timeline is also useful for identifying bottlenecks: if a cluster of tasks a
  
 ---
  
-## Export: Making the Process Legible to Others
+## Export
  
 The **Export** view generates a status report from your project data. You select which sections to include, set a report date, and download the result as Markdown or a self-contained HTML file suitable for printing or emailing.
  
